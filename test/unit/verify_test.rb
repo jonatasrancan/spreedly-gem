@@ -58,7 +58,8 @@ class VerifyTest < Test::Unit::TestCase
       [ './ip', '183.128.100.102' ],
       [ './merchant_name_descriptor', 'TRain' ],
       [ './merchant_location_descriptor', 'British Colombia' ],
-      [ './retain_on_success', 'true' ]
+      [ './retain_on_success', 'true' ],
+      [ './currency_code', 'US' ]
   end
 
 
@@ -75,7 +76,8 @@ class VerifyTest < Test::Unit::TestCase
       ip: "183.128.100.102",
       merchant_name_descriptor: "TRain",
       merchant_location_descriptor: "British Colombia",
-      retain_on_success: true
+      retain_on_success: true,
+      currency_code: 'US'
     }
   end
 
