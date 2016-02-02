@@ -1,7 +1,7 @@
 # Changelog
 
 ## Next Version
-
+* Allow country_code on verify_on_gateway API call [adbatista]
 
 ## 2.0.16
 * Support disburse [rwdaigle]
